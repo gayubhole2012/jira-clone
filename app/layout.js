@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <body
-          className={`${inter.className}`} suppressHydrationWarning>
+          className={`${inter.className} dotted-background`} suppressHydrationWarning>
           <ThemeProvider attribute="class" defaultTheme="dark" >
             <Header />
             <main className="min-h-screen">{children}</main>
